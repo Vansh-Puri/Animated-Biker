@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+}
+
+#Leftwheel{
+    animation: move 2s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes move{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#Rightwheel{
+    animation: move 2s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes move{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#Background{
+    animation: moves 1s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes moves{
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+#Hat{
+    animation: move1 0.5s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes move1{
+    from{
+        transform: translateY(1px);
+    }
+    to{
+        transform: translateY(1px);
+    }
+}
+#Biker{
+    animation: move2 0.5s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes move2{
+    from{
+        transform: translateY(1px);
+    }
+    to{
+        transform: translateY(-3px);
+    }
+}
+
